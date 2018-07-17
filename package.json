@@ -1,0 +1,14 @@
+{
+  "name": "randchar-slack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/siddv/randchar-slack.git",
+  "author": "Siddharth Vadgama <siddv@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
