@@ -42,4 +42,4 @@ Rolls: *${randchar.rollTotals.join('*, *')}*`
   })
 })
 
-app.listen(3000, () => console.log('Randchar-slack listening on port 3000!'))
+app.listen(80, () => console.log('Randchar-slack listening on port 3000!'))
