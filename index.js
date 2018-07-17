@@ -38,7 +38,7 @@ app.get('/', function (req, res) {
   res.json({
     response_type: "in_channel",
     text: `Total: *${randchar.total}*
-Roll Totals: *${randchar.rollTotals.join('*, *')}*`
+Rolls: *${randchar.rollTotals.join('*, *')}*`
   })
 })
 
